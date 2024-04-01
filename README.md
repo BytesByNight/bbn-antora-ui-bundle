@@ -57,10 +57,12 @@ npx gulp bundle:pack
 ```
 and the produced bundle will be available at `build/ui-bundle.zip`.
 
-
 ## Licence
 
 Most source code for the project is licensed under the Mozilla License 2.0 (MPL-2.0). A copy can be found in the `./LICENCE` file.
 
 The clipboard icon comes from the Adwaita icon theme, courtesy of the GNOME Project https://gnome.org/. License: Creative Commons Attribution Share-Alike 3.0 (CC-BY-SA-3.0). A copy can be found in `./LICENCES/CC-BY-SA-3.0.txt`.
 
+> [!NOTE]
+>
+> Main logo and it's white variant are not covered by the above licences and must be replaced.
