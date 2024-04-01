@@ -13,6 +13,7 @@ ui:
   bundle:
     url: https://<website url>/bbn-antora-ui-bundle/latest.zip
     snapshot: true
+  default_layout: with_menu
 ```
 
 Adjust the path above as appropriate for your hosted bundle. Alternatively you can build using a local bundle using the following:
@@ -22,9 +23,13 @@ ui:
   bundle:
     url: ./<relative path to bundle>/latest.zip
     snapshot: true
+  default_layout: with_menu
 ```
 
 In either case, the zipped bundle must exist.
+
+> [!TIP]
+> omitting the `default_layout: with_menu` option will result in a broken site.
 
 ## How to Build
 

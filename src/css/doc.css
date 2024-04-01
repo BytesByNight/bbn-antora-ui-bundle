@@ -231,7 +231,7 @@ ul.nav-list {
 }
 
 
-/* NOTE let the grid win in case of frame-none 
+/* NOTE let the grid win in case of frame-none
 .doc table.frame-sides > :last-child > :last-child > * {
   border-bottom-width: 0;
 }
@@ -346,23 +346,31 @@ ul.nav-list {
 }
 
 .doc .admonitionblock.caution td.content {
-  border-left: 8px solid #e59728;
-  border-radius: 8px;
+  border: 1px solid #e59728;
+  border-left-width: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
 }
 
 .doc .admonitionblock.important td.content {
-  border-left: 8px solid #a07cbc;
-  border-radius: 8px;
+  border: 1px solid #a07cbc;
+  border-left-width: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
 }
 
 .doc .admonitionblock.note td.content {
-  border-left: 8px solid #51a2da;
-  border-radius: 8px;
+  border: 1px solid #51a2da;
+  border-left-width: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
 }
 
 .doc .admonitionblock.tip td.content {
-  border-left: 8px solid #79db32;
-  border-radius: 8px;
+  border: 1px solid #79db32;
+  border-left-width: 8px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
 }
 
 .doc .admonitionblock.warning td.content {

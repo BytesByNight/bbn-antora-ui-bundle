@@ -7,6 +7,10 @@
     "type": "git",
     "url": "https://gitlab.com/antora/antora-ui-default.git"
   },
+  "scripts": {
+    "preview": "npx gulp preview",
+    "package": "npx gulp bundle:pack"
+  },
   "engines": {
     "node": ">= 8.0.0"
   },
