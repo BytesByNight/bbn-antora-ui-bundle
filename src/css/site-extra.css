@@ -66,7 +66,7 @@
 .edit-this-page {
   display: block;
 }
-  
+
 .is-current-page > .nav-link, .is-current-page > .nav-text {
   font-weight: 700;
 }
@@ -79,9 +79,11 @@
 }
 
 .black-border img {
+  padding: 5px;
+  border-width: 1px;
   border-style: solid;
   border-color: black;
-  border-radius: 0.2rem;
+  border-radius: 5px; /* Should be <= the padding */
 }
 
 .nav-menu h3.title {
