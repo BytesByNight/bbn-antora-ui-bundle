@@ -463,6 +463,10 @@ article.doc h2 {
 }
 */
 
+.doc .steminline svg {
+  display: inline;
+}
+
 #preamble .abstract blockquote {
   background-color: #f0f0f0;
   border-left: 5px solid #ddd;
