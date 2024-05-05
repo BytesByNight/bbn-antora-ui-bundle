@@ -3,14 +3,14 @@
   display: block;
   overflow-x: auto;
   padding: 1em;
-  background: #2B2B2D;
   color: #CDD3D8;
 } */
 
 /* BBN Theme */
 .hljs {
   font-size: 0.8em;
-  color: #c0c0c0
+  color: #c0c0c0;
+  background-color: #000000;
 }
 
 .hljs-keyword {
@@ -18,7 +18,7 @@
 }
 
 .hljs-built_in {
-  color: #00ff00;
+  color: #ff8800;
 }
 
 .hljs-type {
@@ -116,7 +116,7 @@
   color: #8b8b8b;
 }
 .hljs-meta .hljs-keyword {
-  color: #00FF00;
+  color: #0080FF;
 }
 .hljs-meta .hljs-string {
   color: #ff0000;
